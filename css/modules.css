@@ -1,26 +1,87 @@
-section div{
-    border: 2px black solid;
+.a{
+    background-color: rgb(182, 136, 50);
 }
 .b{
-    background-color: rgb(94, 197, 163);
+    background-color: rgb(168, 71, 36);
 }
 .c{
-    background-color: rgb(223, 85, 119);
-
+    background-color: rgb(28, 170, 135);
 }
 .d{
-    background-color: rgb(76, 65, 138);
-
+    background-color: rgb(49, 170, 95);
 }
 .e{
-    background-color: rgb(107, 218, 131);
+    background-color: rgb(60, 45, 145);
 }
 .f{
-    background-color: rgb(59, 69, 212);
+    background-color: rgb(143, 37, 125);
 }
 .g{
-    background-color: rgb(189, 81, 216);
+    background-color: rgb(148, 44, 52);
 }
 .h{
-    background-color: rgb(204, 218, 83);
+    background-color: rgb(134, 155, 43);
+}
+.i{
+    background-color: rgb(42, 64, 134);
+}
+
+@media screen and ( min-width: 480px ){
+    .a{
+        background-color: rgb(117, 37, 37);
+    }
+    .b{
+        background-color: rgb(165, 73, 73);
+    }
+    .c{
+        background-color: rgb(23, 59, 114);
+    }
+    .d{
+        background-color: rgb(173, 175, 41);
+    }
+    .e{
+        background-color: rgb(182, 55, 150);
+    }
+    .f{
+        background-color: rgb(163, 45, 45);
+    }
+    .g{
+        background-color: rgb(170, 168, 48);
+    }
+    .h{
+        background-color: rgb(47, 84, 141);
+    }
+    .i{
+        background-color: rgb(53, 170, 62);
+    }
+}
+
+@media screen and ( min-width: 768px ){
+    .a{
+        background-color: rgb(165, 83, 45);
+    }
+    .b{
+        background-color: rgb(119, 104, 38);
+    }
+    .c{
+        background-color: rgb(88, 158, 45);
+    }
+    .d{
+        background-color: rgb(41, 141, 91);
+    }
+    .e{
+        background-color: rgb(47, 147, 177);
+    }
+    .f{
+        background-color: rgb(100, 51, 165);
+    }
+    .g{
+        background-color: rgb(128, 47, 145);
+    }
+    .h{
+        background-color: rgb(150, 53, 118);
+    }
+    .i{
+        background-color: rgb(155, 53, 53);
+    }
 }
